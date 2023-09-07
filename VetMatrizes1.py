@@ -1,3 +1,10 @@
+#Desenvolva um programa que leia pelo teclado os valores de uma matriz 3x3 (ou preencha com valores aleatórios), e então apresente um menu com as seguintes opções:
+#Adição e subtração de outra matriz, lendo os valores dessa outra matriz 3x3 e mostrando o resultado na tela;
+#Multiplicação e Divisão de um escalar lido pelo teclado;
+#Multiplicação da matriz por um vetor de 3 elementos, este lido pelo teclado;
+#Multiplicação da matriz por outra matriz 3x3, esta lida pelo teclado;
+#Apresentar a transposta da matriz lida inicialmente.
+
 import math
 
 def read_vector():
