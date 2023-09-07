@@ -1,3 +1,12 @@
+# Desenvolva um programa que leia pelo teclado os valores x, y e z de um vetor de 3 dimensões (ou preencha com valores aleatórios). Em seguida, apresente ao usuário um menu com as seguintes opções:
+#Calcular o tamanho do vetor;
+#Normalizar o vetor, apresentando o vetor resultante da normalização;
+#Adicionar outro vetor ao que foi lido anteriormente, lendo os valores x, y e z deste novo vetor;
+#Subtrair outro vetor ao que foi lido anteriormente, lendo os valores x, y e z deste novo vetor;
+#Ler o valor de um escalar e realizar a multiplicação do mesmo pelo vetor, mostrando o vetor resultante;
+#Ler o valor de um escalar e realizar a divisão do mesmo pelo vetor, mostrando o vetor resultante;
+#Calcular o produto escalar do vetor lido anteriormente por outro vetor, lendo os valores x, y e z deste novo vetor e mostrando o resultado na tela.
+
 def read_matrix(rows, cols):
     matrix = []
     for i in range(rows):
